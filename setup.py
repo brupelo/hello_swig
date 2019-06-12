@@ -8,7 +8,6 @@ setup(
         Extension(
             '_hello',
             [
-                'src/hello.i',
                 'src/hello_wrap.c',
                 'src/hello.c'
             ],
@@ -18,6 +17,6 @@ setup(
         )
     ],
     py_modules=[
-        "hello"
+        "src.hello"
     ],
 )
